@@ -9,11 +9,12 @@ body{
 .todo-container{
     width: 100%;
     max-width: 635px;
-    border: 1px solid red;
+
 }
-h2{
+.todo-container h2{
     font-weight: bold;
-    font-size: 48px;
+    font-size: 32px;
+    margin-bottom: 10px;
 }
 form{
     display: flex;
