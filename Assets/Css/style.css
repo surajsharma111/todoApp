@@ -65,3 +65,9 @@ button:hover{
     text-decoration: underline;
     cursor:pointer;
 }
+.remove-viewall-btn{
+   visibility: hidden;
+}
+.show-viweall-btn{
+    visibility: visible;
+}

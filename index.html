@@ -2,30 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do App</title>
-    <link rel="stylesheet" href="./Assets/Css/style.css">
-    <link rel="stylesheet" href=".//Assets/Css/reset.css">
-    <script defer src="./Assets/Css/Js/script.js"> </script>
+    <link rel="stylesheet" href="./assets/Css/style.css">
+    <script defer src="./Assets/Css/Js/script.js"></script>
 </head>
 <body>
+    
     <div class="todo-container">
         <h2>TO DO List</h2>
-        <div>
-            <form action=""><input type="text" name="text" id="" placeholder="What do you want to do">
-            <button>Add New</button>
-        </div> </form>
+       
+        <form><input type="text" placeholder="What do you want to do?" > <button id="add_new_btn">ADD NEW</button></form> 
+        
+
         <div class="lists">
-            <div>
-            <span>Study Web Development Course</span>
-                <input type="checkbox">
-            </div>
-
+            
         </div>
+
         <div class="footer">
-            10 Total Items <button>View All</button>
+            <span id="total">1</span> Total Items <button id="viewall-button">View All</button>
         </div>
-
     </div>
 </body>
 </html>
